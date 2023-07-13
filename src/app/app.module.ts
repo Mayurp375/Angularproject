@@ -6,15 +6,19 @@ import { AppComponent } from './app.component';
 
 import { HiiComponent } from './hii/hii.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
-
-    HiiComponent
+    HiiComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,9 +9,10 @@ export class AppComponent {
   title = 'hellow world';
   imgUrl = "../assets/bl.jpg";
   url = "https://www.bridgelabz.com/";
+  userName:String = "";
 
   ngOnInit(): void {
-    this.title = "hellow from Bridgelabz";
+    this.title = "Hellow from Bridgelabz";
   }
 
   onClick(event: any): void {
